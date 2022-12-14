@@ -135,7 +135,7 @@
 
 	xusb@70090000 {
 		status = "okay";
-		nvidia,vbus-gpio = <&gpio TEGRA_GPIO(A, 6) GPIO_ACTIVE_HIGH>;
+		nvidia,vbus-gpio = <&gpio TEGRA_GPIO(I, 0) GPIO_ACTIVE_HIGH>;
 	};
 
 	clocks {
